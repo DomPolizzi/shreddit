@@ -1,6 +1,6 @@
 ---
 title: Shreddit
-permalink: /Shred/
+permalink: "/Shred/"
 layout: page
 ---
 
