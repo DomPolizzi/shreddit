@@ -1,0 +1,10 @@
+---
+title: STRIPE TRIAL
+date: 2016-07-19 12:00:00 +10:00
+categories:
+- payment
+- test
+layout: post
+---
+
+{% include form.html %}
