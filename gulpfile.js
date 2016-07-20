@@ -33,7 +33,7 @@ var plugins = require( 'gulp-load-plugins' )( {
 var options = {
 
     default : {
-        tasks : [ 'build', 'watch' ]
+        tasks : [ 'compile:sass', 'watch' ]
     },
 
     build : {
