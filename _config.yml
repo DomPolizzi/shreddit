@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  gallery:
+    title: Gallery
+    output: true
 description: |
   Shreddit! where skaters of all kinds coexist and challenege eachother to bring skating as a whole to the next level!
 baseurl: 
