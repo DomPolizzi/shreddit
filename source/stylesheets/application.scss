@@ -11,7 +11,7 @@
 @import "base.page";
 @import "base.images";
 
-// @import "type.anchor";
+@import "type.anchor";
 // @import "type.elements";
 // @import "type.lists";
 // @import "type.text";
@@ -24,7 +24,7 @@
 // @import "object.buttons";
 // @import "object.icons";
 // @import "object.media";
-// @import "object.container";
+@import "object.container";
 // @import "object.rule";
 
 // @import "layout.header";
@@ -34,6 +34,7 @@
 // @import "vendor.family";
 @import "theme.flickity";
 
+@import "component.intro";
 // @import "component.coverimage";
 // @import "component.imageblend";
 // @import "component.contact";

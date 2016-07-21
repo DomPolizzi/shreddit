@@ -2,82 +2,76 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="Container">
-    <div class="Grid Grid--withGutter Grid--alignCenter">
-      <div class="headpage">
-        <div class="Grid-cell u-size1of2">
-          <img src="/uploads/thane.jpg">
-        </div>
-        <div class="Grid-cell u-size1of2"
-          <h1> WELCOME TO SHREDDIT!</h1>
-        </div>
-          <p>
-            Lorem ipsum dolor sit amet, an eam quot invenire. Eirmod numquam ex eos, ut diam ferri possim pri, pro an saperet nostrum. Laboramus temporibus ius ut, liber maiorum ad usu, movet posidonium in vim. Ne mei unum officiis deserunt.
-            His ex fierent appareat indoctum, at duo nullam mentitum definitionem, per quod utamur detraxit ne. Eam te lorem virtute, sea te percipit singulis deterruisset. Maiorum perfecto hendrerit vel at, denique instructior voluptatibus et nam. Stet blandit patrioque sea cu. Cum solet theophrastus no.
-          </p>
-      </div>
-      <div class="Grid-cell u-size1of3">
-        <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mco57fUeN21rjm2suo1_500.jpg&f=1">
-      </div>
-      <div class="Grid-cell u-size1of3">
-        <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mco57fUeN21rjm2suo1_500.jpg&f=1">
-      </div>
-      <div class="Grid-cell u-size1of3">
-        <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mco57fUeN21rjm2suo1_500.jpg&f=1">
-      </div>
-    </div>
-  </div>
-  <div class="Container">
-    <h1 class="page-heading">Ideas</h1>
-    <div class="Grid Grid--withGutter">
-      <div class="Grid-cell u-size1of2">
-        <img src="/uploads/boarder.png">
-      </div>
-      <div class="Grid-cell u-size1of2">
-        <img src="/uploads/boarder.png">
-      </div>
-    </div>
-  </div>
+<section class="Intro">
+	<div class="Container">
+		<div class="Intro-header">
+			<img class="Intro-avatar" src="/uploads/thane.jpg">
+			<h1>WELCOME TO SHREDDIT!</h1>
+			<p>
+				Lorem ipsum dolor sit amet, an eam quot invenire. Eirmod numquam ex eos, ut diam ferri possim pri, pro an saperet nostrum. Laboramus temporibus ius ut, liber maiorum ad usu, movet posidonium in vim. Ne mei unum officiis deserunt. His ex fierent appareat
+				indoctum, at duo nullam mentitum definitionem, per quod utamur detraxit ne. Eam te lorem virtute, sea te percipit singulis deterruisset. Maiorum perfecto hendrerit vel at, denique instructior voluptatibus et nam. Stet blandit patrioque sea cu. Cum
+				solet theophrastus no.
+			</p>
+		</div>
+		<div class="Grid Grid--withGutter Grid--alignCenter">
+			<div class="Grid-cell u-size1of3">
+				<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mco57fUeN21rjm2suo1_500.jpg&f=1">
+			</div>
+			<div class="Grid-cell u-size1of3">
+				<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mco57fUeN21rjm2suo1_500.jpg&f=1">
+			</div>
+			<div class="Grid-cell u-size1of3">
+				<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mco57fUeN21rjm2suo1_500.jpg&f=1">
+			</div>
+		</div>
+	</div>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="Container">
+	<h1 class="page-heading">Ideas</h1>
+	<div class="Grid Grid--withGutter">
+		<div class="Grid-cell u-size1of2">
+			<img src="/uploads/boarder.png">
+		</div>
+		<div class="Grid-cell u-size1of2">
+			<img src="/uploads/boarder.png">
+		</div>
+	</div>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h1 class="page-heading">Posts</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<ul class="post-list">
+	{% for post in site.posts %}
+	<li>
+		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <div class="Container">
-    <h1 class="page-heading">Gear</h1>
-    <div class="Grid Grid--alignCenter">
-      <div class="Grid-cell u-size1of3">
-        <img src="/uploads/board.png">
-      </div>
-      <div class="Grid-cell u-size1of3">
-        <img src="/uploads/board.png">
-      </div>
-      <div class="Grid-cell u-size1of3">
-        <img src="/uploads/board.png">
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="Container" style="border: 2px solid black">
-    <!--  add scss class for aboutSite-->
-    <div class="aboutSite">
-      <header class="aboutHeader">What <em>Shreddit</em> is About </header>
-      <img src="/uploads/boarder.png" >
-    </div>
-  </div>
+		<h2>
+	  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	</h2>
+	</li>
+	{% endfor %}
+</ul>
 
-
-
-
+<div class="Container">
+	<h1 class="page-heading">Gear</h1>
+	<div class="Grid Grid--alignCenter">
+		<div class="Grid-cell u-size1of3">
+			<img src="/uploads/board.png">
+		</div>
+		<div class="Grid-cell u-size1of3">
+			<img src="/uploads/board.png">
+		</div>
+		<div class="Grid-cell u-size1of3">
+			<img src="/uploads/board.png">
+		</div>
+	</div>
+</div>
+<br>
+<div class="Container" style="border: 2px solid black">
+	<!--  add scss class for aboutSite-->
+	<div class="aboutSite">
+		<header class="aboutHeader">What <em>Shreddit</em> is About </header>
+		<img src="/uploads/boarder.png">
+	</div>
 </div>
