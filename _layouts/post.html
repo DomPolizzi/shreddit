@@ -3,14 +3,21 @@ layout: default
 ---
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="Container">
+    <div class="Grid Grid--withGutter">
+      <div class="Grid-cell u-ip6p-size8of12">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+          <p class="u-textLg">{{ page.summary}}</p>
+        </header>
+      </div>
+          <div class="Grid-cell u-xs-size10of12 u-sm-size6of12">
+            {{ content }}
+          </div>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    </div>
   </div>
+
+
 
 </article>

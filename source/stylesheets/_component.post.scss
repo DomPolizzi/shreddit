@@ -39,6 +39,7 @@ a.Post {
 	// @include baseTransition();
 	@include complexLink();
 
+
 	+ .Post {
 		border-right: 2px solid palette(background);
 		margin-top: space(1.5);
