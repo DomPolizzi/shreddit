@@ -13,9 +13,7 @@ layout: post
 
 Preserving the sanctity of a wonderful skate spot should be a natural feeling to any seasoned skater. Newcomers may do something careless, like get or cause injuries, damage property, litter, hit cars, and etc., which can cause a spot to serve consequences to attendees of a future session.
 
-
 **What does it mean when a Spot gets Blown Out?**
-
 
 When a Spot gets Blown Out, local officials and residence don't enjoy our company. The tolerance toward skaters by the local community is subject to rejection upon visible or audible disturbance. In other words, someone will have a problem with skaters skating that spot, ask you to leave or simply call the local police station. Refusing to leave is a sure way to end a friendly situation.
 
@@ -25,6 +23,8 @@ When a Spot gets Blown Out, local officials and residence don't enjoy our compan
 
 Keep spots to yourself. The more people that know about it, the faster it will be blown out. Don't mention road names or have them visible in videos. Spot etiquette should be followed regardless of whatever location you skate. Remember to smile and wave at all passersby. Be friendly and courteous of the community you skate in. Pick up all your trash, be conscious of your language (don't curse, especially around children) and be mindful of others using the road. Wear your safety gear, accidents happen. Calling 911 is the last thing you want. Always wearing your helmet can help prevent a bad situation. Cars should be avoided at all costs! If a car is coming the other way, stay in your lane or get off the road altogether.
 
+
+![thany.jpeg](/uploads/thany.jpeg)
 
 **Who Blew Out the Spot?**
 
