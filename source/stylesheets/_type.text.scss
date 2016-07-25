@@ -25,7 +25,6 @@
 	@include textTemplate();
 	font-size: fontsize(textSm, xs);
 
-
 	@include respond-to(sm) {
 		font-size: fontsize(textSm, base);
 	}
@@ -72,7 +71,6 @@ table, time,
 fieldset, figcaption,
 pre, a {
 	@include TextSm();
-	margin-bottom: 12px;
 }
 
 .u-textXs {

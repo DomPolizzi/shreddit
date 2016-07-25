@@ -12,11 +12,11 @@
 @import "base.images";
 
 @import "type.anchor";
-// @import "type.elements";
-// @import "type.lists";
-// @import "type.text";
-// @import "type.headline";
-// @import "type.markdown";
+@import "type.elements";
+@import "type.lists";
+@import "type.text";
+@import "type.headline";
+@import "type.markdown";
 
 // @import "object.cursor";
 // @import "object.arrows";
@@ -43,7 +43,7 @@
 // @import "component.herovideo";
 // @import "component.pathway";
 // @import "component.property";
-// @import "component.post";
+@import "component.post";
 // @import "component.team";
 // @import "component.scrollspy";
 // @import "component.affix";
