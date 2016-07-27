@@ -1,12 +1,10 @@
 ---
 title: Spot Etiquette
-
 date: 2016-07-19 12:00:00 +10:00
 categories:
 - read
-
+permalink: "/reads/spot-Etiquette"
 layout: post
-
 ---
 **Why have a Spot Etiquette?**
 

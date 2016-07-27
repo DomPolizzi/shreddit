@@ -1,11 +1,10 @@
 ---
 title: Absolute n00bz Guide To Setting Up A Board
-
 date: 2016-07-19 12:00:00 +10:00
 categories:
 - read
+permalink: "/reads/n00b-Guide"
 layout: post
-
 ---
 Choosing your setup is very important. Depending on what discipline(s) you choose (what you plan to do on the board,) from Speedboarding, Sliding, Dancing, Carving, or just cruising around, you need a board thats right for you. Some may ask, 'But I'm new, how would I know what I need?" I'm here to tell you. First we need to consider what the intended purpose for the board is, and what it needs to be good at (personal design preference comes later.)
 
