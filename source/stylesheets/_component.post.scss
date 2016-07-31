@@ -6,7 +6,7 @@
 
 .gear{
 	img{
-			width:175px;     
+			width:175px;
 			height:175px;
 	}
 }
@@ -16,4 +16,14 @@
 	font-size: 42px;
 	letter-spacing: -1px;
 	line-height: 1;
+}
+
+.side {
+	float: right;
+	background-color: white;
+	margin: 0 20px;
+	border-left: solid 5px #CEE3F8;
+	padding: 20px;
+	border-bottom: solid 5px #CEE3F8;
+	width: 250px;
 }
