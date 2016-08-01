@@ -5,20 +5,24 @@ layout: default
 <section class="Intro">
 	<div class="Container">
 		<div class="Intro-header">
-			<h1>WELCOME TO SHREDDIT!</h1>
-				<div class="carousel" data-flickity>
-				  <div class="gallery-cell">
-						<img class="headImage" src="uploads/Gurl.jpeg">
-					</div>
+			<h1 class="Headline">WELCOME TO SHREDDIT!</h1>
+			<div class="carousel" data-flickity>
+				{% for image in intro.gallery-images %}
 					<div class="gallery-cell">
-						<img class="headImage" src="uploads/Sergio.jpeg">
+						<div class="FlexEmbed">
+							<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+							<div class="FlexEmbed-content">
+								<div
+									class="u-posAbsoluteCenter CoverImage"
+									style="background-image: url('{{ image }}')">
+								</div>
+							</div>
+						</div>
 					</div>
-				  <div class="gallery-cell">
-				  	<img class="headImage" src="uploads/slide.jpeg">
-				  </div>
-				</div>
+				{% endfor %}
 			</div>
 		</div>
+	</div>
 </section>
 
 

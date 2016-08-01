@@ -10,7 +10,6 @@
 	color: palette(charcoal);
 	line-height: 1.25;
 	margin-bottom: space(0.7);
-	text-align: left;
 
 	// if the headline is a link
 	// https://css-tricks.com/the-sass-ampersand/
@@ -47,15 +46,15 @@
 	}
 }
 
-@mixin headlineSecondary {
-	@include TextMd();
-	font-family: $font-sans-bold;
-}
-
-@mixin headlineTertiary {
-	@include TextSm();
-	font-family: $font-sans-bold;
-}
+//@mixin headlineSecondary {
+//	@include TextMd();
+//	font-family: $font-sans-bold;
+//}
+//
+//@mixin headlineTertiary {
+//	@include TextSm();
+//	font-family: $font-sans-bold;
+//}
 
 
 // Vax Initiate.
@@ -65,5 +64,5 @@
 
 .Headline            { @include headlineRg(); }
 .Headline--sm        { @include headlineSm(); }
-.Headline--secondary { @include headlineSecondary(); }
-.Headline--tertiary  { @include headlineTertiary(); }
+//.Headline--secondary { @include headlineSecondary(); }
+//.Headline--tertiary  { @include headlineTertiary(); }
