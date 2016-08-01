@@ -11,6 +11,8 @@ collections:
   gallery:
     title: Gallery
     output: true
+exclude:
+    node_modules
 description: |
   Shreddit! where skaters of all kinds coexist and challenege eachother to bring skating as a whole to the next level!
 baseurl: 
