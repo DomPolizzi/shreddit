@@ -11,6 +11,9 @@ collections:
   gallery:
     title: Gallery
     output: true
+  home:
+    title: Home
+    output: true
 exclude:
     - node_modules
 description: |
