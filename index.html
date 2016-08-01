@@ -2,13 +2,15 @@
 layout: default
 ---
 
+{% assign intro = site.home | where: 'title', 'intro' | first  %}
+
 <section class="Intro">
 	<div class="Container">
 		<div class="Intro-header">
 			<h1 class="Headline">WELCOME TO SHREDDIT!</h1>
 			<div class="carousel" data-flickity>
 				{% for image in intro.gallery-images %}
-					<div class="gallery-cell">
+					<div class="gallery-cell Intro-image">
 						<div class="FlexEmbed">
 							<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
 							<div class="FlexEmbed-content">
